@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Horizon Trucking - End-to-end trucking logistics focused on reliability, speed, and precision." />
+    <title>Horizon Trucking | Logistics Solutions</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Placeholder Images (In a real project, you would use actual images) -->
+    <style>
+      /* This is a temporary solution to create placeholder images */
+      [src^="/placeholder"] {
+        background-color: #0A3D62;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        position: relative;
+      }
+      
+      [src="/placeholder-hero.jpg"] {
+        background-image: url('https://images.unsplash.com/photo-1519003722824-194d4455a60c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      [src="/placeholder-logo.png"] {
+        background-color: transparent;
+        background-image: url('https://via.placeholder.com/150x50/0A3D62/FFFFFF?text=HORIZON');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      
+      [src^="/placeholder-logo"] {
+        background-color: transparent;
+        background-image: url('https://via.placeholder.com/150x50/333333/FFFFFF?text=PARTNER');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      
+      [src="/placeholder-features.jpg"] {
+        background-image: url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      [src="/placeholder-trust.jpg"] {
+        background-image: url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      [src="/placeholder-carrier.jpg"] {
+        background-image: url('https://images.unsplash.com/photo-1626446634586-370e268502db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      [src^="/placeholder-blog"] {
+        background-image: url('https://images.unsplash.com/photo-1580674285054-bed31e145f59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      [src="/placeholder-story.jpg"] {
+        background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      [src^="/placeholder-team"] {
+        background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center top;
+      }
+      
+      [src^="/placeholder-truckload"] {
+        background-image: url('https://images.unsplash.com/photo-1519003722824-194d4455a60c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      [src^="/placeholder-ltl"] {
+        background-image: url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      [src^="/placeholder-specialized"] {
+        background-image: url('https://images.unsplash.com/photo-1529397938791-2aba4681454f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      [src^="/placeholder-reefer"] {
+        background-image: url('https://images.unsplash.com/photo-1577076930997-58ba233996a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
